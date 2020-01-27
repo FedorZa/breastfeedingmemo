@@ -1,0 +1,60 @@
+html,
+body {
+    width: 360px;
+    height: 360px;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    background-color: #000;
+    color: #fff;
+    height: 360px;
+    width: 360px;
+}
+
+.left{
+	left:0;
+	background-color: #EEEBD3;
+}
+
+.right{
+	left:180px;
+	background-color: #EEEBD3;
+}
+
+.bbutton{
+	font-size: 70px;
+	font-weight:bold;
+
+	position:absolute;
+	top:0;
+	width:180px;
+	height:300px;
+}
+
+.bbutton-span{
+	position: absolute;
+	height: 60px;
+	padding: 120px 70px;
+}
+
+#left-b.active,
+#right-b.active{
+	background-color: #FFC928;
+}
+
+.log-container{
+	position: absolute;
+	top: 300px;
+	left:0;
+	height:60px;
+	width: 360px;
+	background-color: #22A184;
+}
+
+#log{
+	padding: 10px 110px;
+	font-size: 25px;
+	font-weight: bold;
+}

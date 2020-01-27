@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://fzakharov.info/bfa" version="1.0.0" height="1" width="1" viewmodes="maximized">
+    <tizen:application id="okixPJY5Z8.bfa" package="okixPJY5Z8" required_version="4.0"/>
+    <author email="fazzzer@gmail.com">Fedor Zakharov</author>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="icon.jpg"/>
+    <name>Breast Memo</name>
+    <preference name="side" value="right" readonly="false"/>
+    <tizen:profile name="wearable"/>
+    <tizen:setting background-support="disable" encryption="disable" hwkey-event="enable"/>
+</widget>
